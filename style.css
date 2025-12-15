@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilex:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lilex", monospace;
+    text-decoration: none;
+    color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+    background-color: black;
+}
+
+.me {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    margin: 20px auto;
+    border: 4px solid white;
+}
+
+header {
+    margin-top: 40px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 35px;
+    font-weight: 800;
+}
+
+h2 {
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.icons {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+li {
+    margin-right: 15px;
+    opacity: 50%;
+}
+
+li:hover{
+    transition: 0.4s;
+    transform: translateY(-5px);
+    opacity: 100%;
+}
+
+.catalogs {
+    height: 400px;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.paths{
+    font-size: 23px;
+    line-height: 40px;
+}
+
+.paths:hover{
+    color: rgb(184, 184, 184);
+}
+
+main{
+    padding: 0  90px;
+}
+
+
+.about-me{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.pg-me{
+    font-size: 20px ;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 7px;
+}
+
+.container-projects{
+    margin-top: 70px;
+}
+
+.title-project{
+    text-align: center;
+    font-size: 35px;
+}
+
+.project {
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid white;
+    margin-bottom: 20px;
+}
+
+/* .project:hover{
+    transition: 0.5s;
+    transform: translateY(-15px);
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+} */
+
+.img-currency {
+    height: 50%;
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.img-we-care {
+    height: 50%;
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.html{
+    width: 45px;
+    font-size: 13px;
+    border-radius: 7px;    
+    background-color: #e34c26;
+    display: inline-block;
+}
+
+.css{
+     width: 45px;
+    font-size: 13px;
+    border-radius: 7px;    
+    background-color: #264de4;
+    display: inline-block;
+}
+
+.jv{
+     width: 95px;
+    font-size: 13px;
+    border-radius: 7px;    
+    background-color: #c1af3f;
+    display: inline-block;
+}
+
+.name-projects{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.pg-project{
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.container-skills{
+    padding: 0 50px;
+}
+
+.title-skills{
+    font-size: 35px;
+    text-align: center;
+    margin: 10px 0 50px;
+}
+
+.card{
+    border: 1px solid white;
+    margin-bottom: 30px;
+    padding: 0 30px;
+    border-radius: 30px;
+}
+
+.name-cards{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.pg-cards{
+    font-size: 20px;
+}
+
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 90vw;
+    background-color: black;
+    text-align: center;
+}
+
+
